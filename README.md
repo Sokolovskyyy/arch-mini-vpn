@@ -72,7 +72,7 @@ git clone git@github.com:Sokolovskyyy/arch-mini-vpn.git
 cd arch-mini-vpn
 
 # 2. Запустить скрипт — при первом запуске он сам предложит установить зависимости GUI
-python3 arch-mini-vpn.py
+python3 mini-vpn.py
 ```
 
 > При **первом запуске** появится диалог установки `python-pyqt6` и `python-requests` — просто нажми **«Да»**.
