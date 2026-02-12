@@ -50,11 +50,25 @@
 - Python 3.10+
 - KDE Konsole (для установки пакетов через GUI)
 
+### Настройка SSH (один раз)
+
+GitHub больше не принимает пароли при клонировании — нужен SSH-ключ. Если ещё не настроен:
+
+```bash
+# 1. Генерируешь ключ
+ssh-keygen -t ed25519 -C "твой@email.com"
+
+# 2. Копируешь публичный ключ
+cat ~/.ssh/id_ed25519.pub
+```
+
+Идёшь на GitHub → **Settings → SSH and GPG keys → New SSH key** → вставляешь скопированное. Готово — больше никаких паролей.
+
 ### Установка
 
 ```bash
-# 1. Клонировать репозиторий
-git clone https://github.com/Sokolovskyyy/mini-vpn.git
+# 1. Клонировать репозиторий (через SSH)
+git clone git@github.com:Sokolovskyyy/mini-vpn.git
 cd mini-vpn
 
 # 2. Запустить скрипт — при первом запуске он сам предложит установить зависимости GUI
