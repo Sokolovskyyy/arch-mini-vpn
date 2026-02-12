@@ -54,7 +54,7 @@
 
 ```bash
 # 1. Клонировать репозиторий
-git clone https://github.com/YOUR_USERNAME/mini-vpn.git
+git clone https://github.com/Sokolovskyyy/mini-vpn.git
 cd mini-vpn
 
 # 2. Запустить скрипт — при первом запуске он сам предложит установить зависимости GUI
