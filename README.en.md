@@ -74,7 +74,7 @@ The script auto-detects your distro and uses the correct install commands.
 
 ```bash
 # 1. Clone the repository
-git clone git@github.com:Sokolovskyyy/arch-mini-vpn.git
+git clone https://github.com/Sokolovskyyy/arch-mini-vpn.git
 cd arch-mini-vpn
 
 # 2. Run — on first launch it will offer to install dependencies
