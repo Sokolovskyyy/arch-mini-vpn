@@ -68,7 +68,7 @@ cat ~/.ssh/id_ed25519.pub
 
 ```bash
 # 1. Клонировать репозиторий (через SSH)
-git clone git@github.com:Sokolovskyyy/arch-mini-vpn.git
+git clone https://github.com/Sokolovskyyy/arch-mini-vpn.git
 cd arch-mini-vpn
 
 # 2. Запустить скрипт — при первом запуске он сам предложит установить зависимости GUI
